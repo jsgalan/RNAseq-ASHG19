@@ -50,4 +50,4 @@ system("wget --continue -P mae         https://www.cmm.in.tum.de/public/workshop
 
 
 # Options to make plots smaller
-options(repr.plot.width=4, repr.plot.height=4)
+#options(repr.plot.width=4, repr.plot.height=4)
