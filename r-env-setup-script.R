@@ -33,7 +33,7 @@ system("tar -xzf r_binaries.tar.gz -C / ", intern=TRUE)
 
 #' Download count matrix and sample annotation
 # message("Retrieve data for tutorials")
-# devNull <- sapply(c("splicing", "variants"), dir.create, showWarnings=FALSE)
+devNull <- sapply(c("splicing", "variants"), dir.create, showWarnings=FALSE)
 # downloadGDriveFile(out="variants/1000G_subset_exome.vep.vcf.gz", id="1P604mQgzR2brtWqYGVkd3wgaggJXVeLY")
 
 # system("wget --continue                https://www.cmm.in.tum.de/public/workshops/RNAseq_ASHG19/input_data/annotation.tsv")
